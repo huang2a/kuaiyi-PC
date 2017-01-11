@@ -1,0 +1,83 @@
+// 顶部黑色导航条
+#top-nav{
+  padding: 6px 0;
+  a:hover{
+    text-decoration: underline;
+    .col-cheng;
+  }
+  .top-icon{
+    margin:0 0 0 4px;
+    display: inline-block;
+    position: relative;
+    a{
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      text-indent: -9999px;
+    }
+    .weixin{
+      background: url("../../images/icon-topnav-wx.png") center no-repeat;
+    }
+    .iphone{
+      background: url("../../images/icon-topnav-iPhone.png") center no-repeat;
+    }
+    .android{
+      background: url("../../images/icon-topnav-Android.png") center no-repeat;
+    }
+    &:hover .down-popup{
+      display: block;
+    }
+  }
+  .down-popup{
+    display: none;
+    position: absolute;
+    width: 104px;
+    height: 110px;
+    top: 22px;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 99999;
+    background: url("../../images/icon-top-downbg.png") center no-repeat;
+    img{
+          padding: 11px 5px;
+          width: 92px;
+    }
+  }
+}
+
+// 网站主导航菜单
+#nav{
+  width: 100%;
+  .layui-nav{
+    padding: 0;
+  }
+  .active{
+    background: #EE4F01;
+  }
+}
+.layui-nav .layui-nav-item>a{
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  &:hover{
+    background: #EE4F01;
+  }
+}
+.layui-nav .layui-nav-item{
+  line-height: 48px;
+  min-width: 124px;
+}
+.layui-nav .layui-nav-more {
+    border-color: #FFFFFF transparent transparent;
+    top: 22px;
+}
+.layui-nav .layui-nav-mored, .layui-nav-itemed .layui-nav-more {
+    top: 15px;
+    border-color: transparent transparent #FFFFFF;
+}
+.layui-nav-child{
+  top: 52px;
+  dd>a{
+    font-size: 16px;
+  }
+}
