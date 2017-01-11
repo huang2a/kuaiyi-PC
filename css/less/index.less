@@ -1,0 +1,155 @@
+.item-explain{
+    li{
+        float: left;
+        width: 300px;
+        height:180px;
+        transition: .5s all ease;
+        .text-ac();
+        &:hover{
+            .box-shadow(0 5px 20px rgba(0,0,0,0.3));
+            img{
+                transform: scale3d(1.1,1.1,1);
+            }
+        }
+        img{
+            width: 74px;
+            height: 74px;
+            margin-top: 20px;
+            transition: .5s all ease;
+        }
+        h2{
+            padding:10px 0 5px 0;
+            .font24();
+        }
+    }
+}
+.horizontal-column{
+    a:hover{
+        .col-cheng();
+        text-decoration: underline;
+    }
+    .border-r{
+        border-right:#f0efef solid 1px;
+        margin-left: -1px;
+    }
+    .border-l{
+        border-left: #f0efef solid 1px;
+        margin-left: -1px;
+    }
+    .title{
+        width: 100%;
+        .ellipsis();
+    }
+    .btn-lable{
+        display: inline-block;
+        margin: 11px 0;
+        padding: 1px 10px;
+        border:#0781e9 solid 1px;
+        .border-radius(5px);
+    }
+}
+.items-list{
+    padding: 0 10px;
+    position: relative;
+    border-bottom: #ddd solid 1px;
+    &:hover{
+        background: #f8f8f8;
+    }
+    li{
+        float: left;
+        height:58px;
+        margin: 15px 0;
+        text-align: center;
+    }
+    li.amount{
+        width: 200px;
+    }
+    li.earnings{
+        width: 140px;
+    }
+    li.invest{
+        width: 146px;
+        text-align: right;
+    }
+    li.border-r{
+        border-right: #ddd dashed 1px;
+    }
+    .title{
+        padding:10px 120px 0px 0;
+        .ov-text();
+    }
+    .progress {
+        width: 120px;
+        height: 8px;
+        background-color: #dcdada;
+        margin: 0 auto 22px auto;
+        overflow: hidden;
+        .border-radius(2px);
+        .bar {
+            background-color: #0781e9;
+            height: 100%;
+        }
+    }
+    .corner-mark{
+        position: absolute;
+        top: 14px;
+        right: 10px;
+        em.vip1{
+            background-image: url(../../images/icon-shop-vip1.png)
+        }
+        em.vip2{
+            background-image: url(../../images/icon-shop-vip2.png)
+        }
+        em.vip3{
+            background-image: url(../../images/icon-shop-vip3.png)
+        }
+        em.vip4{
+            background-image: url(../../images/icon-shop-vip4.png)
+        }
+        em{
+            display: inline-block;
+            width: 14px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-indent: -9999px;
+        }
+    }
+}
+#items-more{
+    padding: 10px;
+    background: #f8f8f8;
+}
+#cooperation{
+    li{
+        float: left;
+        width: 148px;
+        border:#fff solid 1px;
+        overflow: hidden;
+        img{
+            transition: .5s all ease;
+        }
+        &:hover{
+            border-color: #fb5a02;
+            img{
+                transform: scale3d(1.1,1.1,1);
+            }
+        }
+    }
+}
+// 滚动栏目重置翻页的样式
+.swiper-button-prev.swiper-button-white, .swiper-container-rtl .swiper-button-next.swiper-button-white{
+    background-image: url(../../images/icon-roll-left.png);
+}
+.swiper-button-next.swiper-button-white, .swiper-container-rtl .swiper-button-prev.swiper-button-white{
+    background-image: url(../../images/icon-roll-right.png);
+}
+.swiper-button-white{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.swiper-button-next, .swiper-button-prev{
+    margin-top: -15px;
+}
