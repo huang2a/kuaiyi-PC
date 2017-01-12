@@ -49,7 +49,7 @@
     }
 }
 .items-list{
-    padding: 0 10px;
+    padding: 0 15px;
     position: relative;
     border-bottom: #ddd solid 1px;
     &:hover{
@@ -68,7 +68,7 @@
         width: 140px;
     }
     li.invest{
-        width: 146px;
+        width: 136px;
         text-align: right;
     }
     li.border-r{
@@ -93,7 +93,7 @@
     .corner-mark{
         position: absolute;
         top: 14px;
-        right: 10px;
+        right: 15px;
         em.vip1{
             background-image: url(../../images/icon-shop-vip1.png)
         }
@@ -116,6 +116,22 @@
         }
     }
 }
+#assignment-tab{
+    display: inline-block;
+    float: right;
+    a{
+        display: inline-block;
+        margin-left: 4px;
+        padding:3px 4px;
+        color: #1b1b1b;
+        .font12();
+    }
+    a:hover, .active{
+        background-color: #0781e9;
+        color: #fff;
+        .border-radius(3px);
+    }
+}
 #items-more{
     padding: 10px;
     background: #f8f8f8;
@@ -135,6 +151,165 @@
                 transform: scale3d(1.1,1.1,1);
             }
         }
+    }
+}
+
+#new-case{
+    width: 236px;
+    height: 250px;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    .volume-roll{
+        height: 250px;
+        padding-top: 10px;
+        border-top: #ddd solid 1px;
+        .swiper-slide{
+            height: auto !important;
+            overflow:hidden;
+        }
+    }
+}
+.news-list{
+    border-top: #ddd solid 1px;
+        padding-top: 5px;
+    margin-top: 5px;
+    li{
+        padding: 3.1px 0;
+        a{
+            display: inline-block;
+            width:190px;
+            .ov-text();
+        }
+        span{
+            color: #999;
+        }
+    }
+}
+// 右侧固定导航栏目
+#right-sidebar{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99999;
+    .coupon{
+        position: absolute;
+        top: -220px;
+        right: 0;
+        .close{
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            width:28px;
+            height: 28px;
+            text-indent: -9999px;
+            background: url(../../images/icon-coupon-close.png) center no-repeat;
+        }
+    }
+    .menu{
+        width: 50px;
+        .items{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin-bottom: 1px;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-position: center;
+            &:hover{
+                background-color: #fb5a02;
+            }
+            >a{
+                display: block;
+                width: 50px;
+                height: 50px;
+                text-indent: -9999px;
+            }
+        }
+        .kefu{
+            background-image: url(../../images/icon-right-kefu.png);
+            &:hover{
+                background-image: url(../../images/icon-right-kefu-active.png);
+            }
+        }
+        .jisuan{
+            position: relative;
+            background-image: url(../../images/icon-right-jisuan.png);
+            &:hover{
+                background-image: url(../../images/icon-right-jisuan-active.png);
+            }
+            &:hover #popup-tools{
+                display: block;
+            }
+        }
+        #popup-tools{
+            display: none;
+            position: absolute;
+            top: -176px;
+            right: 50px;
+            width: 268px;
+            height: 226px;
+            background: url(../../images/icon-right-mark.png) center no-repeat;
+            .title{
+                padding:20px 20px 15px 20px;
+                color: #fff;
+                font-size: 16px;
+            }
+            .form-items{
+                position: relative;
+                margin-bottom: 10px;
+                padding:0 20px;
+                color: #fff;
+                font-size: 12px;
+                .lable{
+                    word-spacing:8px;
+                    letter-spacing: 4px;
+                }
+                .input{
+                    width: 154px;
+                    height: 30px;
+                    border:none;
+                    background: #fff;
+                    text-indent: 4px;
+                }
+                .unit{
+                    position: absolute;
+                    right: 34px;
+                    top: 6px;
+                    color: #ddd;
+                }
+            }
+        }
+        .app{
+            position: relative;
+            background-image: url(../../images/icon-right-code.png);
+            &:hover{
+                background-image: url(../../images/icon-right-code-active.png);
+            }
+            &:hover .popup-box{
+                display: block;
+            }
+            .popup-box{
+                display: none;
+                position: absolute;
+                right: 50px;
+                top: -133px;
+            }
+        }
+        .liuyan{
+            background-image: url(../../images/icon-right-fangkui.png);
+            &:hover{
+                background-image: url(../../images/icon-right-fangkui-active.png);
+            }
+
+        }
+        .gotop{
+            background-image: url(../../images/icon-right-gotop.png);
+            &:hover{
+                background-image: url(../../images/icon-right-gotop-active.png);
+            }
+        }
+
     }
 }
 // 滚动栏目重置翻页的样式
