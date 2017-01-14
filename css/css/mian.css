@@ -268,13 +268,13 @@ textarea:-ms-input-placeholder {
   color: #0781e9;
 }
 .text-al {
-  text-align: left;
+  text-align: left !important;
 }
 .text-ac {
-  text-align: center;
+  text-align: center !important;
 }
 .text-ar {
-  text-align: right;
+  text-align: right !important;
 }
 .text-i24 {
   text-indent: 24px;
@@ -314,7 +314,7 @@ textarea:-ms-input-placeholder {
   width: 50px;
   height: 26px;
   line-height: 26px;
-  text-align: center;
+  text-align: center !important;
 }
 .header-search .search-tab .active {
   background-color: #fb5a02;
@@ -333,7 +333,7 @@ textarea:-ms-input-placeholder {
   background-color: #fb5a02;
   color: #fff;
   font-size: 16px;
-  text-align: center;
+  text-align: center !important;
   height: 40px;
   line-height: 40px;
 }
@@ -621,6 +621,9 @@ textarea:-ms-input-placeholder {
 .margin-bottom10 {
   margin-bottom: 10px;
 }
+.margin-bottom15 {
+  margin-bottom: 15px;
+}
 .margin-bottom20 {
   margin-bottom: 20px;
 }
@@ -672,6 +675,9 @@ textarea:-ms-input-placeholder {
 .w50 {
   width: 50%;
 }
+.w1000 {
+  width: 1000px;
+}
 .w930 {
   width: 930px;
 }
@@ -704,7 +710,7 @@ textarea:-ms-input-placeholder {
   width: 300px;
   height: 180px;
   transition: .5s all ease;
-  text-align: center;
+  text-align: center !important;
 }
 .item-explain li:hover {
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
@@ -1130,4 +1136,159 @@ textarea:-ms-input-placeholder {
 }
 #project-introduce .introduce-list p {
   padding-right: 20px;
+}
+.project-parameter {
+  width: 770px;
+  height: 326px;
+  margin: 15px 0 15px 15px;
+  padding-right: 15px;
+  border-right: #ddd solid 1px;
+  overflow: hidden;
+}
+.project-parameter .title {
+  padding-bottom: 20px;
+  border-bottom: #ddd solid 1px;
+}
+.project-parameter .title p {
+  float: left;
+  width: 640px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.project-parameter .parameter-row li {
+  float: left;
+  width: 256px;
+  text-align: center;
+}
+.project-parameter .parameter-row h3 {
+  padding: 10px 0 20px 0;
+}
+.project-parameter .parameter-row p {
+  padding: 36px 0 10px 0;
+}
+.project-parameter .row1 {
+  border-bottom: #ddd dashed 1px;
+}
+.project-buy {
+  width: 369px;
+  margin: 15px;
+}
+.project-buy .shop-author {
+  text-align: right;
+}
+.project-buy .shop-author .project-collect {
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  padding-left: 20px;
+  background: url(../../images/icon-project-collect.png) left center no-repeat;
+}
+.project-buy .shop-author .project-collect.active {
+  color: #fb5a02;
+  background: url(../../images/icon-project-collect-active.png) left center no-repeat;
+}
+.project-buy .buy-input {
+  width: 369px;
+  height: 40px;
+  border: #ddd solid 1px;
+}
+.project-buy .buy-input .jian {
+  float: left;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-right: #ddd solid 1px;
+  text-align: center;
+  font-size: 24px;
+}
+.project-buy .buy-input .jia {
+  float: left;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-left: #ddd solid 1px;
+  text-align: center;
+  font-size: 24px;
+}
+.project-buy .buy-input input {
+  float: left;
+  display: inline-block;
+  border: none;
+  width: 287px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-indent: 4px;
+}
+.project-buy .buy-btn {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fb5a02;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.project-buy .buy-btn a {
+  display: block;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  word-wrap: 8px;
+  letter-spacing: 4px;
+}
+#project-detail {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  min-height: 400px;
+}
+#project-detail .detail-tab li {
+  width: 222px;
+  border-top: #F2F2F2 solid 2px;
+}
+#project-detail .detail-tab .layui-this {
+  border-top: #FB5A02 solid 2px !important;
+}
+#project-detail > .layui-tab-title .layui-tab-bar {
+  display: none;
+}
+#project-detail .layui-tab-title {
+  height: 42px;
+  background: #f8f8f8;
+}
+#project-detail .article-info {
+  width: 1140px;
+  padding: 20px;
+  line-height: 150%;
+  font-size: 12px;
+  overflow: hidden;
+}
+#project-detail .article-info img {
+  max-width: 100%;
+}
+#orders-tip {
+  position: relative;
+  width: 1180px;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+}
+#orders-tip .close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+.payment-box {
+  border: #ddd solid 1px;
+  padding: 20px;
 }
