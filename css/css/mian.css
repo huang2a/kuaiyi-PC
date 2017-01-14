@@ -337,6 +337,10 @@ textarea:-ms-input-placeholder {
   height: 40px;
   line-height: 40px;
 }
+.main1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
 .ver-center {
   display: flex;
   justify-content: flex-end;
@@ -391,9 +395,6 @@ textarea:-ms-input-placeholder {
 }
 .login-btn:hover {
   color: #fff;
-}
-.line-hn {
-  line-height: normal;
 }
 .login-con {
   height: 540px;
