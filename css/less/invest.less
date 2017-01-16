@@ -90,3 +90,212 @@
         }
     }
 }
+
+// 我要投资详情页面模块
+
+.project-parameter{
+    width: 770px;
+    height: 326px;
+    margin: 15px 0 15px 15px;
+    padding-right: 15px;
+    border-right: #ddd solid 1px;
+    overflow: hidden;
+    .title{
+        padding-bottom: 20px;
+        border-bottom: #ddd solid 1px;
+        p{
+            float: left;
+            width: 640px;
+            .ov-text();
+        }
+    }
+    .parameter-row{
+        li{
+            float: left;
+            width:256px;
+            text-align: center;
+        }
+        h3{
+            padding: 10px 0 20px 0;
+        }
+        p{
+            padding: 36px 0 10px 0;
+        }
+    }
+    .row1{
+        border-bottom: #ddd dashed 1px;
+    }
+}
+.project-buy{
+    width: 369px;
+    margin:15px;
+    .shop-author{
+        text-align: right;
+        .project-collect{
+            margin-left: 10px;
+            font-size: 12px;
+            display: inline-block;
+            padding-left: 20px;
+            background:url(../../images/icon-project-collect.png) left center no-repeat;
+        }
+        .project-collect.active{
+            color: #fb5a02;
+            background:url(../../images/icon-project-collect-active.png) left center no-repeat;
+        }
+    }
+    .buy-input{
+        width: 369px;
+        height: 40px;
+        border:#ddd solid 1px;
+        .jian{
+            float: left;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-right: #ddd solid 1px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .jia{
+            float: left;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-left: #ddd solid 1px;
+            text-align: center;
+            font-size: 24px;
+        }
+        input{
+            float: left;
+            display: inline-block;
+            border:none;
+            width: 287px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+            text-indent: 4px;
+        }
+    }
+    .buy-btn{
+        display: block;
+        height:40px;
+        line-height: 40px;
+        .bg-cheng();
+        .border-radius(3px;);
+        a{
+            display: block;
+            height: 40px;
+            color: #fff;
+            text-align: center;
+            word-wrap: 8px;
+            letter-spacing: 4px;
+        }
+    }
+}
+#project-detail{
+    border: none;
+    border-radius: 0;
+    box-shadow:none;
+    min-height: 400px;
+    .detail-tab{
+        li{
+            width:222px;
+            border-top: #F2F2F2 solid 2px;
+        }
+        .layui-this{
+            border-top: #FB5A02 solid 2px !important;
+        }
+    }
+    >.layui-tab-title .layui-tab-bar{
+        display: none;
+    }
+    .layui-tab-title{
+        height: 42px;
+        background: #f8f8f8;
+    }
+    .article-info{
+        width: 1140px;
+        padding: 20px;
+        line-height: 150%;
+        font-size: 12px;
+        overflow: hidden;
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
+
+// 下单模块页面
+#orders-tip{
+    position: relative;
+    width:1180px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    .close{
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+.payment-box{
+    border:#ddd solid 1px;
+    padding: 20px;
+    .bankcard-list{
+
+    }
+    .bankcard-box{
+        display: inline-block;
+        padding: 4px 10px;
+        border:#ddd solid 1px;
+        img{
+            display: inline-block;
+            width: 108px;
+            height: 30px;
+        }
+        .text{
+            font-size: 16px;
+            padding-left: 5px;
+        }
+    }
+    // .payment-password{
+    //     input{
+    //         display: inline-block;
+    //         width: 300px;
+    //         border:#ddd solid 1px;
+    //         height: 38px;
+    //         line-height: 38px;
+    //         text-indent: 4px;
+    //         font-size: 12px;
+    //         .border-radius(3px;);
+    //     }
+    // }
+}
+.finish-box{
+    padding: 80px 0;
+    .title{
+        height: 98px;
+        line-height: 98px;
+        font-size: 24px;
+    }
+    .text{
+        display: inline-block;
+        padding-left: 98px;
+        height: 98px;
+        line-height: 98px;
+    }
+    .succeed{
+            background: url(../../images/icon-order-finish-succeed.png) left center no-repeat;
+    }
+    .failure{
+            background: url(../../images/icon-order-finish-failure.png) left center no-repeat;
+    }
+}

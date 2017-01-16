@@ -1,0 +1,116 @@
+.report-banner{
+    display: block;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    p{
+        height: 260px;
+    }
+}
+#report-page{
+    background: url(../../images/icon-report-bg.jpg) center repeat;
+}
+#timeline{
+    padding-bottom: 40px;
+    background: url(../../images/icon-time-line-bg.png) center repeat-y;
+    .time-list{
+        width: 100%;
+    }
+    .time-items{
+        position: relative;
+        width:600px;
+        .circle{
+            position: absolute;
+            display: inline-block;
+            width: 41px;
+            height: 41px;
+            text-align: center;
+            color: #fff;
+            line-height: 41px;
+            font-size: 24px;
+            .bg-cheng();
+            .border-radius(41px;)
+        }
+        .title{
+            display: inline-block;
+            width:370px;
+            height: 114px;
+            margin-left: 18px;
+            background: url(../../images/icon-time-list-right.png) left center no-repeat;
+            a{
+                padding: 10px 10px 10px 25px;
+                display: inline-block;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+    .singular{
+        .circle{
+            left: -21px;
+        }
+    }
+    .even{
+        text-align: right;
+        .circle{
+            right: -21px !important;
+        }
+        .title{
+            margin-right: 18px !important;
+            background: url(../../images/icon-time-list-left.png) left center no-repeat;
+            a{
+                text-align: left;
+                padding: 10px 25px 10px 10px;
+            }
+        }
+    }
+    .time-year{
+        position: relative;
+        height: 60px;
+        .year{
+            font-size: 24px;
+            position: absolute;
+            top: -28px;
+            left: 570px;
+        }
+    }
+}
+
+#report-roll{
+    position: relative;
+    height: 600px;
+    .report-roll-container{
+        width: 1080px;
+        height: 600px;
+        img{
+            display: block;
+            max-width: 100%;
+        }
+    }
+    .report-roll-next{
+        display: block;
+        height: 100px;
+        width: 40px;
+        line-height: 100px;
+        background-color: #0781e9;
+        margin-top: -50px;
+        text-align: center;
+        font-size: 50px;
+        font-family: '宋体';
+        color: #fff;
+        font-weight: 600;
+    }
+    .report-roll-prev{
+        display: block;
+        height: 100px;
+        width: 40px;
+        line-height: 100px;
+        background-color: #0781e9;
+        margin-top: -50px;
+        text-align: center;
+        font-size: 50px;
+        font-family: '宋体';
+        color: #fff;
+        font-weight: 600;
+    }
+}

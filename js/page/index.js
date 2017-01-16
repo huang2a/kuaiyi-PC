@@ -30,3 +30,8 @@ $(".gotop a").click(function () {
         $('body,html').animate({ scrollTop: 0 }, speed);
         return false;
  });
+
+$("#orders-tip .close").click(function(){
+  $("#orders-tip").hide();
+  $(this).hide();
+});
