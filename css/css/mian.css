@@ -511,6 +511,7 @@ textarea:-ms-input-placeholder {
 .retpas-con .rp-bel .rp-bel-con {
   margin: 30px auto;
   width: 360px;
+  height: auto;
   padding: 0 !important;
   text-align: center;
 }
