@@ -118,8 +118,24 @@
         <span>快一汽车年度大 数据会说话的数据，带你看尽年度最值得买的车是那些，最值得投资的项目是那些。</span>
       </div>
     </div>
-    <div id="report-roll">
-
+    <div id="report-roll" class="main margin-bottom20">
+        <div class="swiper-container report-roll-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide report-roll-slide">
+                    <img src="../update/report-roll-banner01.jpg" height="600" width="1080" alt="">
+                </div>
+                <div class="swiper-slide report-roll-slide"><img src="../update/report-roll-banner01.jpg" height="600" width="1080" alt=""></div>
+                <div class="swiper-slide report-roll-slide"><img src="../update/report-roll-banner01.jpg" height="600" width="1080" alt=""></div>
+                <div class="swiper-slide report-roll-slide"><img src="../update/report-roll-banner01.jpg" height="600" width="1080" alt=""></div>
+                <div class="swiper-slide report-roll-slide"><img src="../update/report-roll-banner01.jpg" height="600" width="1080" alt=""></div>
+                <div class="swiper-slide report-roll-slide"><img src="../update/report-roll-banner01.jpg" height="600" width="1080" alt=""></div>
+                <div class="swiper-slide report-roll-slide"><img src="../update/report-roll-banner01.jpg" height="600" width="1080" alt=""></div>
+                <div class="swiper-slide report-roll-slide"><img src="../update/report-roll-banner01.jpg" height="600" width="1080" alt=""></div>
+            </div>
+            <!-- Add Arrows -->
+        </div>
+        <div class="swiper-button-next report-roll-next">></div>
+        <div class="swiper-button-prev report-roll-prev"><</div>
     </div>
     <div id="fooder" class="bg-fooder">
         <div class="fooder-main l-float main">
@@ -232,5 +248,12 @@
     <script src="../js/lay/dest/layui.all.js"></script>
     <script src="../js/lay/lib/swiper-3.4.1.jquery.min.js"></script>
     <script src="../js/page/index.js"></script>
+     <script>
+        var swiper = new Swiper('.report-roll-container', {
+            nextButton: '.report-roll-next',
+            prevButton: '.report-roll-prev',
+            spaceBetween: 30
+        });
+    </script>
 </body>
 </html>

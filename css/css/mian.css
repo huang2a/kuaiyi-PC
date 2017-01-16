@@ -706,7 +706,7 @@ textarea:-ms-input-placeholder {
 .w250 {
   width: 250px;
 }
-.w100 {
+.w99 {
   width: 100px !important;
 }
 .layui-btn {
@@ -1427,4 +1427,112 @@ textarea:-ms-input-placeholder {
   position: absolute;
   top: -28px;
   left: 570px;
+}
+#report-roll {
+  position: relative;
+  height: 600px;
+}
+#report-roll .report-roll-container {
+  width: 1080px;
+  height: 600px;
+}
+#report-roll .report-roll-container img {
+  display: block;
+  max-width: 100%;
+}
+#report-roll .report-roll-next {
+  display: block;
+  height: 100px;
+  width: 40px;
+  line-height: 100px;
+  background-color: #0781e9;
+  margin-top: -50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: '宋体';
+  color: #fff;
+  font-weight: 600;
+}
+#report-roll .report-roll-prev {
+  display: block;
+  height: 100px;
+  width: 40px;
+  line-height: 100px;
+  background-color: #0781e9;
+  margin-top: -50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: '宋体';
+  color: #fff;
+  font-weight: 600;
+}
+#about-page .about-box {
+  border: #ddd solid 1px;
+}
+#about-page .about-box .class-menu {
+  width: 250px;
+}
+#about-page .about-box .class-menu h2 {
+  padding: 10px 0 10px 20px;
+  font-size: 16px;
+  color: #fb5a02;
+}
+#about-page .about-box .class-menu li {
+  padding: 10px 0 10px 20px;
+}
+#about-page .about-box .class-menu li a {
+  display: block;
+}
+#about-page .about-box .class-menu li:hover,
+#about-page .about-box .class-menu .active {
+  font-size: 14px;
+  background-color: #fb5a02;
+}
+#about-page .about-box .class-menu li:hover a,
+#about-page .about-box .class-menu .active a {
+  color: #fff;
+}
+#about-page .article-box {
+  width: 907px;
+  min-height: 400px;
+  padding: 10px 20px 20px 20px;
+  border-left: #ddd solid 1px;
+}
+#about-page .article-box .column-title {
+  margin-bottom: 20px;
+  border-bottom: #ddd solid 1px;
+}
+#about-page .article-box .column-title h2 {
+  display: inline-block;
+  padding: 5px;
+  border-bottom: #fb5a02 solid 2px;
+  margin-bottom: -1px;
+  color: #fb5a02;
+  font-size: 16px;
+}
+#about-page .article-box .column-title span {
+  color: #999999;
+  font-size: 16px;
+}
+#about-page .article-info .title {
+  font-size: 16px;
+  color: #1b1b1b;
+  text-align: center;
+  font-weight: 600;
+}
+#about-page .article-info .info-box {
+  width: 908px;
+  line-height: 150%;
+  font-size: 14px;
+  overflow: hidden;
+}
+#about-page .article-info .info-box img {
+  max-width: 100%;
+}
+#about-page .article-info .list-box li {
+  padding: 5px 0;
+  border-bottom: #ddd dashed 1px;
+}
+#about-page .article-info .list-box li:hover {
+  background: #f8f8f8;
 }
