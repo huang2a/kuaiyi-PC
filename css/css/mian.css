@@ -341,6 +341,211 @@ textarea:-ms-input-placeholder {
   height: 40px;
   line-height: 40px;
 }
+.main1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.ver-center {
+  display: flex;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  text-align: right;
+}
+.header-newuser {
+  display: flex;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  text-align: right;
+}
+.header-newuser .user-news {
+  display: block;
+  width: 124px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #fb5a02;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #fb5a02 !important;
+  font-size: 16px;
+  text-align: center;
+}
+.header-newuser .user-news i {
+  display: inline-block;
+  height: 40 px;
+  background: url(../../images/ic-newuserregister.png) no-repeat center left;
+  background-size: 15px;
+  font-style: normal;
+  padding-left: 21px;
+}
+.input-com {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  border: 1px solid #dcdada;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.width250 {
+  width: 250px;
+}
+.login-btn {
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: #fb5a02;
+  text-align: center;
+}
+.login-btn:hover {
+  color: #fff;
+}
+.login-con {
+  height: 540px;
+  margin: 0 auto;
+  background: #278eed;
+}
+.login-con .login-box {
+  height: 100%;
+  background: url(../../images/bg-login.jpg) no-repeat center center;
+  display: flex;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  text-align: right;
+}
+.login-con .login-box-l {
+  width: 420px;
+  height: 365px;
+  padding: 0 30px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.login-con .login-box-l h2 {
+  color: #1b1b1b;
+  text-align: center;
+  font-size: 24px;
+}
+.login-con .login-box-l .inp-rule {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  border: 1px solid #dcdada;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.login-con .login-box-l .code-iden .but-grab {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  color: #0781e9;
+  border: 1px solid #dcdada;
+  border-radius: 2px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+.login-con .login-box-l .code-iden .but-grab > img {
+  vertical-align: top !important;
+}
+.login-con .login-box-l .vice-s lable {
+  margin: 2px 5px 0 0;
+}
+/*找回密码*/
+.height20 {
+  height: 20px;
+}
+.retpas-con {
+  background: none !important;
+}
+.retpas-con .rp-top {
+  width: 420px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+.retpas-con .rp-top .pro-com {
+  width: 210px;
+}
+.retpas-con .rp-top .pro-com .num {
+  font-size: 24px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 6px solid #d1d1d1;
+  border-radius: 50%;
+  color: #666;
+  text-align: center;
+}
+.retpas-con .rp-top .pro-com .line {
+  display: inline-block;
+  width: 150px;
+  height: 6px;
+  margin-left: -6px;
+  background: #d1d1d1;
+}
+.retpas-con .rp-top .pro-cur .num {
+  border: 6px solid #fb5a02;
+  color: #fb5a02;
+}
+.retpas-con .rp-top .pro-cur .line {
+  background: #fb5a02;
+}
+.retpas-con .rp-top .pro-cur .pro-txt {
+  color: #fb5a02;
+}
+.retpas-con .rp-bel {
+  width: 1000px;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 35px;
+  box-sizing: border-box;
+}
+.retpas-con .rp-bel .rp-b-tit {
+  font-size: 24px;
+}
+.retpas-con .rp-bel .rp-b-tit a {
+  font-size: 14px;
+  display: inline-block;
+  color: #0781e9;
+  margin-left: 8px;
+}
+.retpas-con .rp-bel .rp-bel-con {
+  margin: 30px auto;
+  width: 360px;
+  height: auto;
+  padding: 0 !important;
+  text-align: center;
+}
+.retpas-con .rp-bel .rp-bel-con .bel-t h2 {
+  font-size: 16px;
+  color: #1b1b1b;
+}
+.retpas-con .rp-bel .rp-bel-con .bel-t p {
+  font-size: 12px;
+  margin: 12px 0 9px;
+  color: #666;
+}
+.retpas-con .rp-bel .rp-bel-con .inp-rule {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  border: 1px solid #dcdada;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.retpas-con .rp-bel .rp-bel-con .but-grab {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  color: #0781e9;
+  border: 1px solid #dcdada;
+  border-radius: 2px;
+  box-sizing: border-box;
+  text-align: center;
+}
 #top-nav {
   padding: 6px 0;
 }
@@ -729,6 +934,78 @@ textarea:-ms-input-placeholder {
 }
 .layui-btn-danger {
   background-color: #E50000;
+}
+.fb-con {
+  width: 1000px;
+  padding: 0 20px;
+  background: #fff;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.fb-con h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #1b1b1b;
+}
+.fb-con .inp-box {
+  width: 100%;
+  margin-top: 13px;
+  border: 1px solid #dcdada;
+  box-sizing: border-box;
+}
+.fb-con .porblem-box {
+  height: 400px;
+  line-height: 24px;
+  padding: 10px;
+}
+.fb-con .tel-box {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+.fb-con a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px auto;
+  background: #fb5a02;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 2px;
+}
+.reg-con {
+  height: 685px !important;
+}
+.reg-con .reg-con-l {
+  height: 605px !important;
+}
+.reg-con .reg-con-l i.col-fb5a02 {
+  color: #fb5a02;
+  font-style: normal;
+}
+.reg-con .log-tips-box .log-tips input {
+  border-color: #fb5a02;
+}
+.reg-con .log-tips-box .log-tips span.tips-txt {
+  display: block !important;
+  color: #fb5a02;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.reg-con .log-tips-box .log-tips i.tips-t {
+  font-style: normal;
+  border: 1px solid #fb5a02;
+  border-radius: 50%;
+  padding: 0 2px;
+  font-size: 10px;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+.reg-con .log-tips-box .tip-two {
+  margin-top: 0 !important;
 }
 .item-explain li {
   float: left;
