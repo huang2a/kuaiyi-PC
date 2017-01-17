@@ -1,0 +1,163 @@
+#member-page{
+    .member-box{
+        border:#ddd solid 1px;
+    }
+    .member-left{
+         width: 250px;
+         .user-img{
+            padding: 20px 20px 10px 20px;
+            background:#f8f8f8;
+            .l-left{
+                width:80px;
+                height: 80px;
+                overflow: hidden;
+                .border-radius(90px;);
+                .user-img{
+                    display: block;
+                    width: 80px;
+                    height: 80px;
+                    padding: 0;
+                    background: url(../../images/user-img.jpg) center no-repeat;
+                }
+            }
+            .l-right{
+                width: 110px;
+                margin-left: 20px;
+                text-align: left;
+                overflow: hidden;
+            }
+            .verified{
+                height: 20px;
+                line-height: 20px;
+                em{
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    text-indent: -9999px;
+                }
+                em.on{
+                    background: url(../../images/icon-certification-member01.png) center no-repeat;
+                }
+                em.not{
+                    background: url(../../images/icon-certification-member02.png) center no-repeat;
+                }
+            }
+            .grade{
+                height: 20px;
+                line-height: 20px;
+                em{
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    text-indent: -9999px;
+                }
+                em.vip1{
+                    background: url(../../images/icon-shop-vip1.png) center no-repeat;
+                }
+                em.vip2{
+                    background: url(../../images/icon-shop-vip2.png) center no-repeat;
+                }
+                em.vip3{
+                    background: url(../../images/icon-shop-vip3.png) center no-repeat;
+                }
+                em.vip4{
+                    background: url(../../images/icon-shop-vip4.png) center no-repeat;
+                }
+            }
+         }
+         .verified-state{
+            padding: 0 5px 10px 5px;
+            background:#f8f8f8;
+            li{
+                display: inline-block;
+                float: left;
+                padding: 2px;
+                a{
+                    height: 20px;
+                    line-height: 20px;
+                    display: inline-block;
+                }
+                em{
+                    display: inline-block;
+                    float: left;
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            .sf{
+                em.on{
+                    background: url(../../images/icon-certification-identity01.png) center no-repeat;
+                }
+                em.not{
+                    background: url(../../images/icon-certification-identity02.png) center no-repeat;
+                }
+            }
+            .yhk{
+                em.on{
+                    background: url(../../images/icon-certification-bankcard01.png) center no-repeat;
+                }
+                em.not{
+                    background: url(../../images/icon-certification-bankcard02.png) center no-repeat;
+                }
+            }
+            .jymm{
+                em.on{
+                    background: url(../../images/icon-certification-password01.png) center no-repeat;
+                }
+                em.not{
+                    background: url(../../images/icon-certification-password02.png) center no-repeat;
+                }
+            }
+            .sjh{
+                em.on{
+                    background: url(../../images/icon-certification-phone01.png) center no-repeat;
+                }
+                em.not{
+                    background: url(../../images/icon-certification-phone02.png) center no-repeat;
+                }
+            }
+            .yx{
+                em.on{
+                    background: url(../../images/icon-certification-email01.png) center no-repeat;
+                }
+                em.not{
+                    background: url(../../images/icon-certification-email02.png) center no-repeat;
+                }
+            }
+         }
+         .member-menu{
+            li{
+                width: 250px;
+                height: 40px;
+                line-height: 40px;
+                border-bottom: #ddd dashed 1px;
+                a{
+                    margin-right: 20px;
+                    display: block;
+                    width: 250px;
+                    height: 100%;
+                    text-indent: 20px;
+                }
+            }
+            li:hover, .active{
+                border-color:#fb5a02;
+                .font14();
+                .bg-cheng();
+                a{
+                    .col-bai();
+                }
+            }
+         }
+    }
+    .member-right{
+        width:947px;
+        min-height: 750px;
+        padding: 10px 0 20px 0;
+        border-left: #ddd solid 1px;
+    }
+    .member-overview{
+        padding: 10px 20px 20px 20px;
+        border-bottom: #ddd solid 1px;
+    }
+
+}

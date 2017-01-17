@@ -39,11 +39,11 @@
                 <div class="vice-s margin-top20 l-float">
                     <span class="checkbox-box">我已阅读并同意<lable class="u-checkbox l-left"><input name="checkbox" type="checkbox"></lable><i class="col-fb5a02">《服务条款》</i></span>
                 </div>
-                <a class="login-btn dis-b w100 margin-top20 bg-cheng" href="../index.html">注册</a>
+                <a class="login-btn dis-b w100 margin-top20 bg-cheng" href="##">注册</a>
             </div>
-        </div>    
+        </div>
     </div>
-    
+
     <div id="fooder" class="bg-fooder">
         <div class="fooder-coryright bg-bai text-ac">
             <p class="col-hui">版权所有 ©快一金服（集团）股份有限公司 未经许可不得复制、转载或摘编，违者必究!</p>
@@ -51,5 +51,14 @@
         </div>
     </div>
     <script src="../js/lay/lib/jquery-1.9.1.min.js"></script>
+    <script src="../js/lay/dest/layui.all.js"></script>
+    <script>
+        $(".login-box-l .login-btn").click(function(){
+            layer.msg('用户注册成功!',{icon: 1});
+            setTimeout(function(){
+                location.href="../login/index.html";
+            },4000);
+        });
+    </script>
     </body>
 </html>

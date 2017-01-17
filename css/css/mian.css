@@ -1887,3 +1887,155 @@ textarea:-ms-input-placeholder {
 .reg-con .log-tips-box .tip-two {
   margin-top: 0 !important;
 }
+#member-page .member-box {
+  border: #ddd solid 1px;
+}
+#member-page .member-left {
+  width: 250px;
+}
+#member-page .member-left .user-img {
+  padding: 20px 20px 10px 20px;
+  background: #f8f8f8;
+}
+#member-page .member-left .user-img .l-left {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
+}
+#member-page .member-left .user-img .l-left .user-img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  background: url(../../images/user-img.jpg) center no-repeat;
+}
+#member-page .member-left .user-img .l-right {
+  width: 110px;
+  margin-left: 20px;
+  text-align: left;
+  overflow: hidden;
+}
+#member-page .member-left .user-img .verified {
+  height: 20px;
+  line-height: 20px;
+}
+#member-page .member-left .user-img .verified em {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+}
+#member-page .member-left .user-img .verified em.on {
+  background: url(../../images/icon-certification-member01.png) center no-repeat;
+}
+#member-page .member-left .user-img .verified em.not {
+  background: url(../../images/icon-certification-member02.png) center no-repeat;
+}
+#member-page .member-left .user-img .grade {
+  height: 20px;
+  line-height: 20px;
+}
+#member-page .member-left .user-img .grade em {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+}
+#member-page .member-left .user-img .grade em.vip1 {
+  background: url(../../images/icon-shop-vip1.png) center no-repeat;
+}
+#member-page .member-left .user-img .grade em.vip2 {
+  background: url(../../images/icon-shop-vip2.png) center no-repeat;
+}
+#member-page .member-left .user-img .grade em.vip3 {
+  background: url(../../images/icon-shop-vip3.png) center no-repeat;
+}
+#member-page .member-left .user-img .grade em.vip4 {
+  background: url(../../images/icon-shop-vip4.png) center no-repeat;
+}
+#member-page .member-left .verified-state {
+  padding: 0 5px 10px 5px;
+  background: #f8f8f8;
+}
+#member-page .member-left .verified-state li {
+  display: inline-block;
+  float: left;
+  padding: 2px;
+}
+#member-page .member-left .verified-state li a {
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+}
+#member-page .member-left .verified-state li em {
+  display: inline-block;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+#member-page .member-left .verified-state .sf em.on {
+  background: url(../../images/icon-certification-identity01.png) center no-repeat;
+}
+#member-page .member-left .verified-state .sf em.not {
+  background: url(../../images/icon-certification-identity02.png) center no-repeat;
+}
+#member-page .member-left .verified-state .yhk em.on {
+  background: url(../../images/icon-certification-bankcard01.png) center no-repeat;
+}
+#member-page .member-left .verified-state .yhk em.not {
+  background: url(../../images/icon-certification-bankcard02.png) center no-repeat;
+}
+#member-page .member-left .verified-state .jymm em.on {
+  background: url(../../images/icon-certification-password01.png) center no-repeat;
+}
+#member-page .member-left .verified-state .jymm em.not {
+  background: url(../../images/icon-certification-password02.png) center no-repeat;
+}
+#member-page .member-left .verified-state .sjh em.on {
+  background: url(../../images/icon-certification-phone01.png) center no-repeat;
+}
+#member-page .member-left .verified-state .sjh em.not {
+  background: url(../../images/icon-certification-phone02.png) center no-repeat;
+}
+#member-page .member-left .verified-state .yx em.on {
+  background: url(../../images/icon-certification-email01.png) center no-repeat;
+}
+#member-page .member-left .verified-state .yx em.not {
+  background: url(../../images/icon-certification-email02.png) center no-repeat;
+}
+#member-page .member-left .member-menu li {
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: #ddd dashed 1px;
+}
+#member-page .member-left .member-menu li a {
+  margin-right: 20px;
+  display: block;
+  width: 250px;
+  height: 100%;
+  text-indent: 20px;
+}
+#member-page .member-left .member-menu li:hover,
+#member-page .member-left .member-menu .active {
+  border-color: #fb5a02;
+  font-size: 14px;
+  background-color: #fb5a02;
+}
+#member-page .member-left .member-menu li:hover a,
+#member-page .member-left .member-menu .active a {
+  color: #fff;
+}
+#member-page .member-right {
+  width: 947px;
+  min-height: 750px;
+  padding: 10px 0 20px 0;
+  border-left: #ddd solid 1px;
+}
+#member-page .member-overview {
+  padding: 10px 20px 20px 20px;
+  border-bottom: #ddd solid 1px;
+}
