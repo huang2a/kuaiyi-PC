@@ -2098,3 +2098,116 @@ textarea:-ms-input-placeholder {
   border: none;
   box-shadow: none;
 }
+.storebox {
+  display: block;
+  overflow: hidden;
+  height: 260px;
+  background: #222222 url(../../update/storehead-bg.png) center center no-repeat;
+  background-size: auto 100%;
+}
+.store-status {
+  display: block;
+  overflow: hidden;
+}
+.store-status .store-head {
+  display: block;
+  overflow: hidden;
+  width: 180px;
+  height: 180px;
+  border: 2px solid #fb5a02;
+  margin: 40px 10px;
+  float: left;
+}
+.store-status .store-info {
+  display: block;
+  overflow: hidden;
+  float: left;
+  color: #fff;
+  margin: 40px 10px;
+  font-size: 16px;
+}
+.store-status .store-detail {
+  margin-bottom: 8px;
+}
+.store-status .store-detail td {
+  padding: 0 12px 18px 12px;
+}
+.store-status .store-ident {
+  display: block;
+  overflow: hidden;
+}
+.store-status .store-ident .verified-state {
+  padding: 0 5px 10px 5px;
+}
+.store-status .store-ident .verified-state li {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+}
+.store-status .store-ident .verified-state li a {
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+}
+.store-status .store-ident .verified-state li em {
+  display: inline-block;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+.store-status .store-ident .verified-state .sth em.on {
+  background: url(../../images/icon-certification-store01.png) center no-repeat;
+}
+.store-status .store-ident .verified-state .sth em.not {
+  background: url(../../images/icon-certification-store02.png) center no-repeat;
+}
+.store-status .store-ident .verified-state .sf em.on {
+  background: url(../../images/icon-certification-identity03.png) center no-repeat;
+}
+.store-status .store-ident .verified-state .sf em.not {
+  background: url(../../images/icon-certification-identity02.png) center no-repeat;
+}
+.store-status .store-ident .verified-state .sjh em.on {
+  background: url(../../images/icon-certification-phone03.png) center no-repeat;
+}
+.store-status .store-ident .verified-state .sjh em.not {
+  background: url(../../images/icon-certification-phone02.png) center no-repeat;
+}
+.store-status .store-ident .credit {
+  height: 20px;
+  line-height: 20px;
+}
+.store-status .store-ident .credit em {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+}
+.store-status .store-ident .credit em.on {
+  background: url(../../images/icon-certification-credit01.png) center no-repeat;
+}
+.store-status .store-ident .credit em.not {
+  background: url(../../images/icon-certification-credit02.png) center no-repeat;
+}
+.store-status .store-ident .grade {
+  height: 20px;
+  line-height: 20px;
+}
+.store-status .store-ident .grade em {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+}
+.store-status .store-ident .grade em.vip1 {
+  background: url(../../images/icon-shop-vip1.png) center no-repeat;
+}
+.store-status .store-ident .grade em.vip2 {
+  background: url(../../images/icon-shop-vip2.png) center no-repeat;
+}
+.store-status .store-ident .grade em.vip3 {
+  background: url(../../images/icon-shop-vip3.png) center no-repeat;
+}
+.store-status .store-ident .grade em.vip4 {
+  background: url(../../images/icon-shop-vip4.png) center no-repeat;
+}
