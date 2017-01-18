@@ -26,8 +26,94 @@
 		font-size: 16px;
 	}
 	.store-detail{
+		margin-bottom: 8px;
 		td{
 			padding: 0 12px 18px 12px;
 		}
+	}
+	.store-ident{
+		display: block;
+		overflow: hidden;
+		.verified-state{
+		    padding: 0 5px 10px 5px;
+		    li{
+		        display: inline-block;
+		        float: left;
+		        padding: 4px;
+		        a{
+		            height: 20px;
+		            line-height: 20px;
+		            display: inline-block;
+		        }
+		        em{
+		            display: inline-block;
+		            float: left;
+		            width: 20px;
+		            height: 20px;
+		        }
+		    }
+		    .sth{
+		        em.on{
+		            background: url(../../images/icon-certification-store01.png) center no-repeat;
+		        }
+		        em.not{
+		            background: url(../../images/icon-certification-store02.png) center no-repeat;
+		        }
+		    }
+		    .sf{
+		        em.on{
+		            background: url(../../images/icon-certification-identity03.png) center no-repeat;
+		        }
+		        em.not{
+		            background: url(../../images/icon-certification-identity02.png) center no-repeat;
+		        }
+		    }
+		    .sjh{
+		        em.on{
+		            background: url(../../images/icon-certification-phone03.png) center no-repeat;
+		        }
+		        em.not{
+		            background: url(../../images/icon-certification-phone02.png) center no-repeat;
+		        }
+		    }
+		}
+		.credit{
+            height: 20px;
+            line-height: 20px;
+            em{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                text-indent: -9999px;
+            }
+            em.on{
+                background: url(../../images/icon-certification-credit01.png) center no-repeat;
+            }
+            em.not{
+                background: url(../../images/icon-certification-credit02.png) center no-repeat;
+            }
+        }
+        .grade{
+            height: 20px;
+            line-height: 20px;
+            em{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                text-indent: -9999px;
+            }
+            em.vip1{
+                background: url(../../images/icon-shop-vip1.png) center no-repeat;
+            }
+            em.vip2{
+                background: url(../../images/icon-shop-vip2.png) center no-repeat;
+            }
+            em.vip3{
+                background: url(../../images/icon-shop-vip3.png) center no-repeat;
+            }
+            em.vip4{
+                background: url(../../images/icon-shop-vip4.png) center no-repeat;
+            }
+        }
 	}
 }
