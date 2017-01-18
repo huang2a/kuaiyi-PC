@@ -665,21 +665,21 @@
 <script src="../../js/lay/lib/swiper-3.4.1.jquery.min.js"></script>
 <script src="../../js/page/index.js"></script>
 <script>
-        $(function() {
-            $('.items-list:last').css("border","none");
-        });
-    </script>
+    $(function() {
+        $('.items-list:last').css("border","none");
+    });
+</script>
 <script>
-        $(".money-intro #recharge").click(function(){
-            layer.open({
-              type: 1,
-              title:'在线充值',
-              skin: 'layui-layer-cheng', //加上边框
-              area: ['320px', '200px'], //宽高
-              content: '<div id="recharge-popup" class="padding-top20 padding-left20 padding-right20"><h2 class="font16 padding-bottom10 col-cheng">充值金额</h2><div class="layui-form"><div class="layui-form-item"><div class="layui-input-inline w100"><input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="充值的金额" class="layui-input"></div></div></div><p><a href="../../invest/orders.html" class="layui-btn w100">马上充值</a></p></div>'
-            });
+    $(".money-intro #recharge").click(function(){
+        layer.open({
+          type: 1,
+          title:'在线充值',
+          skin: 'layui-layer-cheng', //加上边框
+          area: ['320px', '200px'], //宽高
+          content: '<div id="recharge-popup" class="padding-top20 padding-left20 padding-right20"><h2 class="font16 padding-bottom10 col-cheng">充值金额</h2><div class="layui-form"><div class="layui-form-item"><div class="layui-input-inline w100"><input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="充值的金额" class="layui-input"></div></div></div><p><a href="../../invest/orders.html" class="layui-btn w100">马上充值</a></p></div>'
         });
-    </script>
+    });
+</script>
 <script>
     layui.use('laydate', function(){
       var laydate = layui.laydate;
