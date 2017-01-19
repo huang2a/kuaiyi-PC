@@ -35,3 +35,7 @@ $("#orders-tip .close").click(function(){
   $("#orders-tip").hide();
   $(this).hide();
 });
+
+
+
+
