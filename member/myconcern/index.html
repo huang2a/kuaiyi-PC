@@ -631,23 +631,5 @@
 <script src="../../js/lay/lib/jquery-1.9.1.min.js"></script>
 <script src="../../js/lay/dest/layui.all.js"></script>
 <script src="../../js/page/index.js"></script>
-<script>
-    $(function() {
-        $('.items-list:last').css("border","none");
-    });
-</script>
-<script>
-    $(".cancel-concem").click(function(){
-        layer.confirm('你确定要取消对这个项目的关注吗？', {
-          btn: ['确定','取消'], //按钮
-          skin: 'layui-layer-cheng',
-          title:'取消提示',
-        }, function(){
-          layer.msg('成功取消关注!',{icon: 1});
-        }, function(){
-          layer.msg('感谢继续关注！',{icon: 2});
-        });
-    });
-</script>
 </body>
 </html>

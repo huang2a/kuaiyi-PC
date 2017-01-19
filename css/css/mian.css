@@ -409,7 +409,8 @@ textarea:-ms-input-placeholder {
   color: #fff;
 }
 .login-con {
-  height: 540px;
+  min-height: 540px;
+  height: 540px\0;
   margin: 0 auto;
   background: #278eed;
 }
@@ -2144,16 +2145,16 @@ textarea:-ms-input-placeholder {
 .mycoupon-list .coupon-box .coupon-mark.use {
   background: url(../../images/member/coupon-mark-use.png) center no-repeat;
 }
-.bankcard-list {
+.member-bankcard-list {
   width: 908px;
   margin: 0 auto;
   overflow: hidden;
 }
-.bankcard-list ul {
+.member-bankcard-list ul {
   display: inline-block;
   width: 940px;
 }
-.bankcard-list li {
+.member-bankcard-list li {
   float: left;
   width: 290px;
   height: 180px;
@@ -2162,23 +2163,37 @@ textarea:-ms-input-placeholder {
   border: #ddd solid 1px;
   background: url(../../images/member/bankcard-bg.png) bottom center no-repeat;
 }
-.bankcard-list li .operation {
+.member-bankcard-list li .operation {
   display: inline-block;
 }
-.bankcard-list .title {
+.member-bankcard-list .title {
   padding: 5px 10px;
   border-bottom: #ddd solid 1px;
 }
-.bankcard-list .add-bankcard {
+.member-bankcard-list .add-bankcard {
   text-align: center;
   background: #f8f8f8;
   border: #0781e9 dashed 1px;
 }
-.bankcard-list .add-bankcard a {
+.member-bankcard-list .add-bankcard a {
   display: block;
   width: 100%;
   height: 120px;
   padding-top: 60px;
+}
+.member-system {
+  width: 907px;
+  margin: 0 auto;
+  border: #ddd solid 1px;
+}
+.member-system .member-system-list .mark {
+  display: inline-block;
+  padding: 2px 4px;
+  color: #fff;
+  background: #0781e9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 .storebox {
   display: block;
